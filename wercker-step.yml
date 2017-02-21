@@ -1,0 +1,14 @@
+name: swiftlint
+version: 0.0.1
+description: 
+keywords:
+    - swift
+    - linter
+    - swiftlint
+properties:
+    version:
+        type: string
+        default: 0.16.1
+    path:
+        type: string
+        required: false
