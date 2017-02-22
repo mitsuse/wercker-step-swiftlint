@@ -1,6 +1,6 @@
 name: swiftlint
 version: 0.0.1
-description: 
+description: Lint sources of the SPM project.
 keywords:
     - swift
     - linter
@@ -8,7 +8,7 @@ keywords:
 properties:
     version:
         type: string
-        default: 0.16.1
-    path:
+        default: 0.16.0
+    config:
         type: string
-        required: false
+        default: .swiftlint.yml

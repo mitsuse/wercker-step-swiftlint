@@ -5,6 +5,21 @@
 [Wercker][wercker] step for [Realm/SwiftLint][github-realm-swiftlint].
 
 
+## Usage
+
+```yaml
+build:
+  steps:
+    - mitsuse/swiftlint:
+```
+
+
+## Properties
+
+- `version`: the version of SwiftLint (default: `0.16.0`)
+- `config`: the path of a configuration for linting (default: `.swiftlint.yml`)
+
+
 ## License
 
 The content of this repository are licensed under the MIT License unless otherwise noted.
